@@ -7,6 +7,8 @@ from tflite_model_maker.config import ExportFormat
 from tflite_model_maker.config import QuantizationConfig
 import matplotlib.pyplot as plt
 
+# !pip uninstall tensorflow -y
+# !pip install tensorflow==2.10.0
 # py -3 -m venv .venv
 # source .venv/Scripts/activate
 # pip freeze > requirements.txt
